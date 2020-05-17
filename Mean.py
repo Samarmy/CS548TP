@@ -10,15 +10,15 @@ tumor_data = seq_data.set_index('sample').to_numpy()
 
 #f = open("./tumor_data/bladder-rsem-fpkm-gtex.txt")
 #next(f)
-#line = f.readline()   # 以行的形式进行读取文件
+#line = f.readline()   
 #list1 = []
 #tumor_data=[]
 #while line:
 #    a = line.split()
-#    b = a[1:]   # 这是选取需要读取的位数
+#    b = a[1:]  
 #    for num in b:
 #        tumor_data.append(float(num))
-    #tumor_data.append(float(list1))  # 将其添加在列表之中
+    #tumor_data.append(float(list1)) 
  #   line = f.readline()
 #f.close()
 
